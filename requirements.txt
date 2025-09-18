@@ -1,0 +1,25 @@
+# Core LangChain and LangGraph
+langchain>=0.3.0
+langgraph>=0.2.0
+langsmith>=0.2.0
+langchain-openai>=0.2.0
+langchain-mcp-adapters>=0.1.0
+
+# MCP and async support
+mcp>=1.0.0
+aiofiles>=24.1.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Token counting and utilities
+tiktoken>=0.7.0
+typing-extensions>=4.0.0
+
+# Optional: For development
+black>=24.0.0
+flake8>=6.0.0
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
